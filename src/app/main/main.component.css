@@ -1,0 +1,237 @@
+main {
+  background-image: url("../../../public/images/image110.png");
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.info h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  color: #2c2f24;
+  font-size: 100px;
+  font-weight: 200;
+  margin-top: -50px;
+}
+
+.info p {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  width: 537px;
+  font-size: 20px;
+}
+
+.btns {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.bn3637 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.1rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border: 1px solid black;
+  border-radius: 3rem;
+}
+
+.bn37 {
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.bn37:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.sec-main {
+  height: 700px;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+header {
+  color: #2c2f24;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 50px;
+}
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0px 50px;
+  gap: 20px;
+  text-align: center;
+}
+.sections {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-color: #dbdfd0;
+  border-radius: 5%;
+  background-color: white;
+  gap: 40px;
+}
+img {
+  width: 100px;
+}
+p {
+  width: 20vw;
+  font-size: 18px;
+  font-weight: 250;
+  color: #414536;
+}
+
+a {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-decoration: none;
+  color: #ad343e;
+  font-weight: bold;
+}
+a:hover {
+  color: #852931;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.third-main {
+  width: 100%;
+  height: 750px;
+  background-color: #f9f9f7;
+  color: #2c2f24;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.imagee {
+  width: 500px;
+}
+
+.information {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.information header {
+  width: 30vw;
+}
+
+.information p {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: #2c2f24;
+  font-size: 15px;
+  width: 32vw;
+  padding: 5px;
+  font-weight: 500;
+}
+.information .d {
+  font-weight: 200;
+  color: #414536;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.forth-main {
+  height: 860px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  gap: 80px;
+}
+.forth-main header {
+  width: 40vw;
+  font-weight: 500;
+}
+.seccc img {
+  width: 300px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+.seccc img:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.seccc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: auto;
+}
+.seccc section {
+  display: flex;
+  align-items: baseline;
+  border: none;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.fifth-main {
+  width: 100%;
+  background-color: #f9f9f7;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 200px;
+}
+.bla {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.fifth-main header {
+  width: 30vw;
+}
+.fifth-main p {
+  width: 30vw;
+}
+
+.one {
+  width: 500px;
+}
+.two {
+  padding-top: 20px;
+  width: 200px;
+}

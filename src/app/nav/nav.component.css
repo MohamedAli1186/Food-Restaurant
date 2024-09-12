@@ -1,0 +1,77 @@
+nav{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center ;
+}
+
+h4{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style:italic;
+    font-size: 40px;
+    color: #474747;
+}
+.foodLogo{
+    width: 60px;
+}
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+.buttons a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #2C2F24;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+.buttons a:hover{
+    background-color: #DBDFD0;
+} 
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 1px #182226 solid ;
+    border-radius: 3rem;
+    cursor: pointer;
+    }
+    
+.bn37 {
+    background-color: #fff;
+    color: #182226;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+    }
+    
+.bn37:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+    }

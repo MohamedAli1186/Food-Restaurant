@@ -5,3 +5,20 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #909071; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(65, 63, 63); 
+}
+body::-webkit-scrollbar-button{
+    display: none;
+}
+
+

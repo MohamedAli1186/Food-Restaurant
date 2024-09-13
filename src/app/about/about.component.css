@@ -1,0 +1,213 @@
+.third-main {
+    width: 100%;
+    height: 750px;
+    background-color: #f9f9f7;
+    color: #2c2f24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+  }
+  header {
+    color: #2c2f24;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+  }
+  .imagee {
+    width: 450px;
+  }
+  
+  .information {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .information header {
+    width: 30vw;
+  }
+  
+  .information p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #2c2f24;
+    font-size: 18px;
+    width: 32vw;
+    padding: 5px;
+    font-weight: 500;
+  }
+  .information .d {
+    font-weight: 200;
+    color: #414536;
+  }
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+  .sec-about{
+    height: 900px;
+  }
+  .sec-about>img{
+    width: 100%;
+  }
+  .things{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+  .icons>img{
+    width: 48px;
+    height: 48px;
+  }
+
+  .infos>header{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #2C2F24;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .infos{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .infos header{
+    padding-left: 8px;
+  }
+  .infos p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #2c2f24;
+    font-size: 15px;
+    width: 20vw;
+    padding: 5px;
+    font-weight: 500;
+  }
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+.third-about{
+    width: 100%;
+    height: 600px;
+    background-color: #F9F9F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.talks{
+    display: flex;
+    align-items: baseline;
+
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.talks>header{
+    font-size: 40px;
+    width: 30vw;
+    font-weight: 600;
+}
+.talks>p{
+    font-size: 15px;
+    width: 30vw;
+}
+
+.third-about>img{
+    width: 400px;
+}
+.sections{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.sections>section{
+    width: 243px;
+    height: 124px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    box-shadow: 0 0 1px black;
+}
+h2{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+section>h3{
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.six-main{
+    width: 100%;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px ;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .six-main>header{
+    color: #2C2F24;
+  }
+  .opinions{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .opinions>section{
+    background-color: #F9F9F7;
+    padding: 20px 20px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+  
+  }
+  
+  .talk>h2{
+    color: #AD343E;
+    font-size: 25px;
+  }
+  
+  .sora{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .sora>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .opinions>section:hover{
+    transform: scale(1.01);
+    box-shadow:  0px 2px 4px rgba(0,0,0,0.5);;
+  }
+  

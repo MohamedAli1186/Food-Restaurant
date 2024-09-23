@@ -1,12 +1,13 @@
 .third-main {
     width: 100%;
-    height: 750px;
+    height: 950px;
     background-color: #f9f9f7;
     color: #2c2f24;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
+
   }
   header {
     color: #2c2f24;

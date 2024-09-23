@@ -9,4 +9,11 @@ import { Router, RouterLink } from '@angular/router';
 })
 export class MainComponent {
 
+  title = 'Food-restaurant';
+  scrollToTop = ()  => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scroll
+    });
+}
 }

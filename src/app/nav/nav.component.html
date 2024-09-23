@@ -1,18 +1,21 @@
 <nav>
-    <div class="logo">
-        <img class="foodLogo" src="./images/food.png" alt="" srcset="">
-        <h4>Bistro Bliss</h4>
-    </div>
+    
+        <a (click)="scrollToTop()"class="logo" routerLink="/main" >
+            <img class="foodLogo" src="./images/food.png" alt="" srcset="">
+            <h4>Bistro Bliss</h4>
+        </a>
 
     <div class="buttons">
-        <a routerLink="/main" routerLinkActive="active" >Home</a>
-        <a routerLink="/about" routerLinkActive="active">About</a>
-        <a routerLink="/menu" routerLinkActive="active">Menu</a>
-        <a routerLink="/pages" routerLinkActive="active" >Pages</a>
-        <a routerLink="/contact" routerLinkActive="active">Contact</a>
+        <a (click)="scrollToTop()"routerLink="/main" routerLinkActive="active" >Home</a>
+        <a (click)="scrollToTop()" routerLink="/about" routerLinkActive="active">About</a>
+        <a (click)="scrollToTop()" routerLink="/menu" routerLinkActive="active">Menu</a>
+        <a (click)="scrollToTop()"routerLink="/pages" routerLinkActive="active" >Pages</a>
+        <a (click)="scrollToTop()"routerLink="/contact" routerLinkActive="active">Contact</a>
     </div>
     <div class="book-button">
-        <a routerLink="/book-table" class="bn3637 bn37">Book A Table</a>
+        <a (click)="scrollToTop()" routerLink="/book-table" class="bn3637 bn37">Book A Table</a>
+        <a (click)="scrollToTop()" routerLink="/login" class="bn3637 bn37">Login</a>
     </div>
+
     
 </nav>

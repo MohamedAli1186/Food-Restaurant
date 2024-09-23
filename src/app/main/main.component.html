@@ -1,3 +1,4 @@
+<div class="top"></div>
 <main>
   <div class="info">
     <h3>Best food for</h3>
@@ -10,12 +11,13 @@
     <br />
     <div class="btns">
       <a
-        routerLink="/book-table"
+        (click)="scrollToTop()" 
+        routerLink="/register"
         style="background-color: #ad343e; border: none; color: white"
         class="bn3637 bn37"
-        >Book A Table</a
+        >Register</a
       >
-      <a routerLink="/menu" class="bn3637 bn37">Explore Menu</a>
+      <a (click)="scrollToTop()"  routerLink="/menu" class="bn3637 bn37">Explore Menu</a>
     </div>
   </div>
 </main>
@@ -34,7 +36,7 @@
         In the new era of technology we look in the future with certainty and
         pride for our life.
       </p>
-      <a routerLink="/menu">Explore Menu</a>
+      <a (click)="scrollToTop()" routerLink="/menu">Explore Menu</a>
     </section>
     <section class="sections">
       <img src="./images/dish.png" alt="" srcset="" />
@@ -43,7 +45,7 @@
         In the new era of technology we look in the future with certainty and
         pride for our life.
       </p>
-      <a routerLink="/menu">Explore Menu</a>
+      <a (click)="scrollToTop()" routerLink="/menu">Explore Menu</a>
     </section>
     <section class="sections">
       <img src="./images/drink.png" alt="" srcset="" />
@@ -52,7 +54,7 @@
         In the new era of technology we look in the future with certainty and
         pride for our life.
       </p>
-      <a routerLink="/menu">Explore Menu</a>
+      <a (click)="scrollToTop()" routerLink="/menu">Explore Menu</a>
     </section>
     <section class="sections">
       <img src="./images/desert.png" alt="" srcset="" />
@@ -61,7 +63,7 @@
         In the new era of technology we look in the future with certainty and
         pride for our life.
       </p>
-      <a routerLink="/menu">Explore Menu</a>
+      <a (click)="scrollToTop()" routerLink="/menu">Explore Menu</a>
     </section>
   </div>
 </div>
@@ -85,7 +87,7 @@
       the overall experience. Our staff, renowned for their warmth and
       dedication, strives to make every visit an unforgettable event.
     </p>
-    <a routerLink="/contact" class="bn3637 bn37">More About Us</a>
+    <a (click)="scrollToTop()"  routerLink="/contact" class="bn3637 bn37">More About Us</a>
   </div>
 </div>
 
@@ -202,10 +204,12 @@
 
 
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
   <div class="seven-main">
     <div class="top">
       <header>Our Blog & Articles</header>
-      <a routerLink="/pages"class="bn3637 bn37"
+      <a (click)="scrollToTop()"   routerLink="/pages"class="bn3637 bn37"
       style="background-color: #ad343e; border: none; color: white">Read All Articles</a>
     </div>
     <div class="down">
